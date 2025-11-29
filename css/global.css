@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;;
+}
+
+
+
+.container{
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+:root{
+  --azure:#2381bd;
+}
+
+.btn-orcamento{
+  border: solid var(--azure);
+ padding: 8px 14px;
+  border-radius: 4px;
+}
+
+hr{
+  background: var(--azure);
+  border: 0;
+  height: 1px;
+}
+
