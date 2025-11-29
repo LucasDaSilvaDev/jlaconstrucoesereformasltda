@@ -39,3 +39,22 @@ header{
 
 
 
+@media (max-width: 768px) {
+  header {
+    padding-top: 20px;
+  }
+
+  .menu ul {
+    flex-direction: column;     
+    gap: 20px;
+    align-items: center;
+  }
+
+  .menu a {
+    font-size: 18px;           
+  }
+
+  .menu ul li a::after {
+    height: 1.5px;              
+  }
+}

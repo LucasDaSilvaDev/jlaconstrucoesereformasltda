@@ -8,3 +8,20 @@
 main{
   padding-bottom: 70px;
 }
+
+@media (max-width: 768px) {
+  .img-fundo {
+    margin-top: 20px;            
+    padding: 0 20px;            
+  }
+
+  .img-fundo img {
+    width: 100%;                 
+    max-width: 450px;            
+    height: auto;
+  }
+
+  main {
+    padding-bottom: 40px;        
+  }
+}

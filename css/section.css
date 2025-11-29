@@ -99,7 +99,77 @@
 }
 
 
+@media (max-width: 768px) {
 
+  /* Títulos e textos */
+  .sobre > h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .sobre > h1 {
+    font-size: 28px;
+  }
+
+  .sobre > p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  /* Botão orçamento */
+  .sobre > a {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  /* Social icons */
+  .social {
+    gap: 12px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .social img {
+    width: 30px;
+  }
+
+  /* Título serviços */
+  .servicos > h1 {
+    font-size: 26px;
+    padding-top: 60px;
+  }
+
+  /* GRID DE SERVIÇOS */
+  .grid-servicos {
+    margin: 20px;
+    grid-template-columns: 1fr; /* 1 coluna no celular */
+    gap: 24px;
+  }
+
+  .grid-servicos img {
+    width: 100%;
+  }
+
+  .grid-servicos h4 {
+    font-size: 18px;
+  }
+
+  /* Segunda grade de serviços */
+  .grid-servicos2 {
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 40px;
+  }
+
+  .grid-servicos2 img {
+    width: 100%;
+  }
+
+  .grid-servicos2 h4 {
+    font-size: 18px;
+  }
+
+}
 
 
 
